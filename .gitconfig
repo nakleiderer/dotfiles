@@ -1,0 +1,42 @@
+[branch]
+    autosetuprebase = always
+[color]
+  ui = true
+  branch = true
+  diff = true
+  interactive = true
+  status = true
+[color "status"]
+  ui = always
+  added = green
+  changed = red
+  deleted = red
+  untracked = yellow
+[user]
+	name = Nicolas Kleiderer
+	email = 4278631+nakleiderer@users.noreply.github.com
+[diff]
+  tool = vscode
+[difftool "vscode"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+  tool = vscode
+  ff = only # Only allow fast-forward merges
+[mergetool "vscode"]
+  cmd = code --wait $MERGED
+[push]
+	default = current
+[core]
+  excludesfile = ~/.gitignore_global
+	autocrlf = input
+	editor = code --wait
+[fetch]
+    prune = true
+[pull]
+	rebase = true
+	ff = only
+[merge "npm-merge-driver"]
+	name = automatically merge npm lockfiles
+	driver = npx npm-merge-driver merge %A %O %B %P
+[alias]
+	yolo = push --force-with-lease
