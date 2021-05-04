@@ -31,8 +31,9 @@ defaults write com.apple.TextEdit "RichText" -bool "false"
 # Turn off all badges
 # defaults read com.apple.ncprefs "apps"
 
-# Restart the Dock to apply settings
-killall Dock
-killall Finder
-killall TextEdit
-killall SystemUIServer
+# Kill affected apps to apply settings
+for app in "Dock" "Finder" "TextEdit" "SystemUIServer"; do
+  killall "${app}" > /dev/null 2>&1
+done
+
+echo "Mac Settings Applied. Some changes require a logout/restart to take effect."

@@ -1,15 +1,19 @@
+tap "homebrew/cask-fonts"
 
-cask_args appdir: "~/Applications", require_sha: true
-
+brew "deno"
 brew "docker"
 brew "git"
+brew "jq"
+brew "mas"
 brew "nvm"
+brew "spaceship"
 
+cask_args appdir: "~/Applications", require_sha: true
 cask "1password"
 cask "firefox"
+cask "font-fira-code"
 cask "google-chrome"
 cask "microsoft-edge"
-cask "firefox"
 cask "visual-studio-code"
 
 mas "Magnet", id: 441258766

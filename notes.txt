@@ -1,0 +1,22 @@
+https://github.com/nakleiderer/dotfiles
+
+
+SSH config
+editor config
+
+use nvm when changing directory
+
+
+GitHub SSH key generation wizard
+
+Github shallow clone all non-archived repositories
+
+Use fira in vscode
+Verify spaceship install
+
+
+Macos settings inspiration:
+  https://github.com/pawelgrzybek/dotfiles/blob/master/setup-macos.sh
+  https://github.com/mathiasbynens/dotfiles/blob/master/.macos
+
+Git commit template
