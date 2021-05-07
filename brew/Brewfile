@@ -1,15 +1,15 @@
 tap "homebrew/cask-fonts"
 
 brew "deno"
-brew "docker"
 brew "git"
 brew "jq"
 brew "mas"
 brew "nvm"
-brew "spaceship"
+brew "starship"
 
-cask_args appdir: "~/Applications", require_sha: true
+cask_args appdir: "~/Applications"
 cask "1password"
+cask "docker"
 cask "firefox"
 cask "font-fira-code"
 cask "google-chrome"

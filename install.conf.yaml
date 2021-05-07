@@ -10,10 +10,16 @@
         path: vscode/settings.json
         force: true
     ~/.gitconfig: git/gitconfig
-    ~/.gitignore_global: git/gitconfig_global
+    ~/.gitignore_global: git/gitignore_global
+    ~/.zshrc: zsh/.zshrc
+    ~/.ssh/config: ssh/config
+
+- create:
+    - ~/.nvm
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
     - [./brew/setup.sh, Installing brew]
     - [./vscode/setup.sh, Configuring vscode]
     - [./macos/setup.sh, Configuring macOS]
+    - [./nvm/setup.sh, Configuring nvm]
