@@ -3,6 +3,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 [ -x "$(command -v npm)" ] && export NODE_PATH=$NODE_PATH:`npm root -g`
 
+export GPG_TTY=$(tty)
+
 autoload -U add-zsh-hook
 load-nvmrc() {
   local node_version="$(nvm version)"

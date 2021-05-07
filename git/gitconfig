@@ -15,6 +15,7 @@
 [user]
 	name = Nicolas Kleiderer
 	email = 4278631+nakleiderer@users.noreply.github.com
+	signingkey = 7DB905E99FB34D2B
 [diff]
   tool = vscode
 [difftool "vscode"]
@@ -40,3 +41,5 @@
 	driver = npx npm-merge-driver merge %A %O %B %P
 [alias]
 	yolo = push --force-with-lease
+[commit]
+	gpgsign = true
