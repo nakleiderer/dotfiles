@@ -22,4 +22,3 @@
     - [./brew/setup.sh, Installing brew]
     - [./vscode/setup.sh, Configuring vscode]
     - [./macos/setup.sh, Configuring macOS]
-    - [./nvm/setup.sh, Configuring nvm]
