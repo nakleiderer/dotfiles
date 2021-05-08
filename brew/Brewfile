@@ -5,6 +5,7 @@ tap homebrew/core
 brew bdw-gc
 brew c-ares
 brew deno
+brew dockutil
 brew gdbm
 brew gettext
 brew git
