@@ -13,6 +13,9 @@
     ~/.gitignore_global: git/gitignore_global
     ~/.zshrc: zsh/.zshrc
     ~/.ssh/config: ssh/config
+    ~/.config/brewfile/Brewfile: 
+        path: brew/Brewfile
+        force: true
 
 - create:
     - ~/.nvm

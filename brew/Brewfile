@@ -1,21 +1,73 @@
-tap "homebrew/cask-fonts"
+# tap repositories and their packages
 
-brew "deno"
-brew "git"
-brew "jq"
-brew "mas"
-brew "nvm"
-brew "starship"
+tap homebrew/core
+brew bdw-gc
+brew c-ares
+brew deno
+brew gdbm
+brew gettext
+brew git
+brew gmp
+brew gnupg
+brew gnutls
+brew guile
+brew jemalloc
+brew jq
+brew libassuan
+brew libev
+brew libevent
+brew libffi
+brew libgcrypt
+brew libgpg-error
+brew libidn2
+brew libksba
+brew libtasn1
+brew libtool
+brew libunistring
+brew libusb
+brew m4
+brew mas
+brew mpdecimal
+brew nettle
+brew nghttp2
+brew npth
+brew nvm
+brew oniguruma
+brew openssl@1.1
+brew p11-kit
+brew pcre2
+brew pinentry
+brew pkg-config
+brew python@3.9
+brew readline
+brew sqlite
+brew starship
+brew unbound
+brew xz
 
-cask_args appdir: "~/Applications"
-cask "1password"
-cask "docker"
-cask "firefox"
-cask "font-fira-code"
-cask "google-chrome"
-cask "gpg-suite"
-cask "microsoft-edge"
-cask "notion"
-cask "visual-studio-code"
+tap homebrew/bundle
 
-mas "Magnet", id: 441258766
+tap homebrew/cask-fonts
+cask font-fira-code
+
+tap homebrew/cask
+cask 1password
+cask docker
+cask firefox
+cask google-chrome
+cask gpg-suite
+cask microsoft-auto-update
+cask microsoft-edge
+cask notion
+cask visual-studio-code
+
+tap rcmdnk/file
+brew brew-file
+
+# App Store applications
+appstore 682658836 GarageBand (10.4.3)
+appstore 408981434 iMovie (10.2.3)
+appstore 409183694 Keynote (11.0.1)
+appstore 441258766 Magnet (2.6.0)
+appstore 409203825 Numbers (11.0)
+appstore 409201541 Pages (11.0)

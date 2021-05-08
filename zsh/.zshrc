@@ -5,6 +5,10 @@ export NVM_DIR="$HOME/.nvm"
 
 export GPG_TTY=$(tty)
 
+if [ -f $(brew --prefix)/etc/brew-wrap ];then
+  source $(brew --prefix)/etc/brew-wrap
+fi
+
 autoload -U add-zsh-hook
 load-nvmrc() {
   local node_version="$(nvm version)"
