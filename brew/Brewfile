@@ -2,8 +2,6 @@ tap "homebrew/cask-fonts"
 
 brew "deno"
 brew "git"
-brew "gnupg"
-brew "gnupg2"
 brew "jq"
 brew "mas"
 brew "nvm"
@@ -15,7 +13,9 @@ cask "docker"
 cask "firefox"
 cask "font-fira-code"
 cask "google-chrome"
+cask "gpg-suite"
 cask "microsoft-edge"
+cask "notion"
 cask "visual-studio-code"
 
 mas "Magnet", id: 441258766
