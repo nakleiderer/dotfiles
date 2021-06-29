@@ -66,6 +66,9 @@ cask visual-studio-code
 tap rcmdnk/file
 brew brew-file
 
+tap stripe/stripe-cli
+brew stripe
+
 # App Store applications
 appstore 682658836 GarageBand (10.4.3)
 appstore 408981434 iMovie (10.2.3)
