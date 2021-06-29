@@ -35,6 +35,7 @@ brew nghttp2
 brew npth
 brew nvm
 brew oniguruma
+brew openjdk
 brew openssl@1.1
 brew p11-kit
 brew pcre2
@@ -70,9 +71,9 @@ tap stripe/stripe-cli
 brew stripe
 
 # App Store applications
-appstore 682658836 GarageBand (10.4.3)
-appstore 408981434 iMovie (10.2.3)
-appstore 409183694 Keynote (11.0.1)
-appstore 441258766 Magnet (2.6.0)
-appstore 409203825 Numbers (11.0)
-appstore 409201541 Pages (11.0)
+appstore 682658836   GarageBand  (10.4.2)
+appstore 408981434   iMovie      (10.2.2)
+appstore 409183694   Keynote     (10.3.9)
+appstore 441258766   Magnet      (2.6.0)
+appstore 409203825   Numbers     (10.3.9)
+appstore 409201541   Pages       (10.3.9)
