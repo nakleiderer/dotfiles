@@ -1,7 +1,6 @@
 {
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -13,8 +12,10 @@
   },
   "cSpell.userWords": [
     "Millis",
+    "camelcase",
     "faunadb",
     "firestore",
+    "idempotency",
     "kleiderer",
     "sveltejs",
     "sveltekit",
@@ -22,7 +23,7 @@
     "vite"
   ],
   "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
@@ -43,4 +44,11 @@
     "source.fixAll.eslint": true
   },
   "editor.tabSize": 2,
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  "editor.accessibilitySupport": "off",
+  "redhat.telemetry.enabled": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.tsserver.maxTsServerMemory": 9072,
 }

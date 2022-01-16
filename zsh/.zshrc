@@ -10,6 +10,9 @@ if [ -f $(brew --prefix)/etc/brew-wrap ];then
   source $(brew --prefix)/etc/brew-wrap
 fi
 
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+
 autoload -U add-zsh-hook
 load-nvmrc() {
   local node_version="$(nvm version)"
@@ -32,3 +35,7 @@ add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
 eval "$(starship init zsh)"
+
+BLITZ_AC_ZSH_SETUP_PATH=/Users/nicolas/Library/Caches/@blitzjs/cli/autocomplete/zsh_setup && test -f $BLITZ_AC_ZSH_SETUP_PATH && source $BLITZ_AC_ZSH_SETUP_PATH; # blitz autocomplete setup
+
+export PATH="/Users/nicolas/.deno/bin:$PATH"
