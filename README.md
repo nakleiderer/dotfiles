@@ -2,9 +2,19 @@
 
 ## Installation
 
-`git clone git@github.com:nakleiderer/dotfiles.git && cd dotfiles && ./install`
+### Clone and install
 
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/nakleiderer/dotfiles/master/bootstrap.sh)"`
+```sh
+git clone git@github.com:nakleiderer/dotfiles.git
+cd dotfiles
+./install
+```
+
+### Install with Bootstrap script
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/nakleiderer/dotfiles/master/bootstrap.sh)"
+```
 
 ## Upgrade
 
