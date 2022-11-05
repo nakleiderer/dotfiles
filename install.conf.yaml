@@ -18,9 +18,6 @@
       path: brew/Brewfile
       force: true
 
-- create:
-    - ~/.nvm
-
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
     - [./brew/setup.sh, Installing brew]
