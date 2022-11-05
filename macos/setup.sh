@@ -4,8 +4,11 @@ defaults write com.apple.dock "orientation" -string "left"
 # Autohide the dock
 defaults write com.apple.dock "autohide" -bool "true"
 
-# Autohide after 0.5 seconds
-defaults write com.apple.dock "autohide-delay" -float "0.5"
+# Quickly show dock on hover
+defaults write com.apple.dock "autohide-time-modifier" -int 0
+
+# Quickly show and hide the dock
+defaults write com.apple.Dock autohide-delay -float 0.0001
 
 # Don't show recent apps
 defaults write com.apple.dock "show-recents" -bool "false"
