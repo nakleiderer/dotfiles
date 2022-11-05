@@ -7,16 +7,16 @@
 
 - link:
     ~/Library/Application Support/Code/User/settings.json:
-        path: vscode/settings.json
-        force: true
+      path: vscode/settings.json
+      force: true
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
     ~/.zshrc: zsh/.zshrc
     ~/.ssh/config: ssh/config
-    ~/.nvm/default-packages: npm/npmfile
-    ~/.config/brewfile/Brewfile: 
-        path: brew/Brewfile
-        force: true
+    ~/.default-npm-packages: npm/npmfile
+    ~/.config/brewfile/Brewfile:
+      path: brew/Brewfile
+      force: true
 
 - create:
     - ~/.nvm
