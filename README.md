@@ -2,6 +2,8 @@
 
 ## Installation
 
+As a prerequisite to installation, `dockutil` needs to be installed first. There's currently no known automated way to install `dockutil`, so check https://github.com/kcrawford/dockutil for installation instructions.
+
 ### Clone and install
 
 ```sh
