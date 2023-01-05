@@ -17,17 +17,28 @@ brew deno
 brew dnsmasq
 brew fontconfig
 brew freetype
+brew fribidi
+brew gd
 brew gdbm
+brew gdk-pixbuf
 brew gettext
 brew giflib
 brew glib
 brew gmp
+brew graphite2
+brew graphviz
+brew gts
+brew harfbuzz
 brew highway
+brew icu4c
 brew imath
+brew jasper
 brew jpeg-turbo
 brew jpeg-xl
+brew libavif
 brew libpng
 brew libpthread-stubs
+brew librsvg
 brew libtiff
 brew libtool
 brew libvmaf
@@ -38,15 +49,19 @@ brew libxdmcp
 brew libxext
 brew libxrender
 brew libyaml
+brew lz4
 brew lzo
 brew m4
 brew mas
 brew mpdecimal
+brew netpbm
 brew openexr
 brew openssl@1.1
+brew pango
 brew pcre2
 brew pixman
 brew pkg-config
+brew pulumi
 brew python@3.10
 brew readline
 brew sqlite
@@ -55,6 +70,7 @@ brew unixodbc
 brew webp
 brew xorgproto
 brew xz
+brew zstd
 
 tap homebrew/bundle
 
@@ -71,8 +87,11 @@ cask google-chrome
 cask google-cloud-sdk
 cask notion
 cask visual-studio-code
+cask warp
 
 tap koenbollen/public
+
+tap pulumi/tap
 
 tap rcmdnk/file
 brew brew-file
